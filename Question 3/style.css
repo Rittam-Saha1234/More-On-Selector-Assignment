@@ -1,0 +1,22 @@
+.pseudo-element::before {
+    content: "Hello Rittam! ";
+    color: black;
+    font-size: x-large;
+    background-color: coral;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.pseudo-element::after {
+    content: " Take Care Rittam!";
+    color: black;
+    background-color: aquamarine;
+    font-size: x-large;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
